@@ -1,0 +1,463 @@
+{
+    "mapfull": {
+        "state": {
+            "selectedLayers": [{
+                "id": "base_35"
+            }],
+            "zoom": 2,
+            "east": 432237,
+            "north": 7143091
+        },
+        "conf": {
+            "globalMapAjaxUrl": "ajax.json?",
+            "plugins": [{
+                "id": "Oskari.mapframework.bundle.mapmodule.plugin.LayersPlugin"
+            }, {
+                "id": "Oskari.mapframework.mapmodule.WmsLayerPlugin"
+            }, {
+                "id": "Oskari.mapframework.wmts.mapmodule.plugin.WmtsLayerPlugin"
+            }, {
+                "id": "Oskari.mapframework.mapmodule.ControlsPlugin"
+            }, {
+                "id": "Oskari.mapframework.bundle.mapmodule.plugin.ScaleBarPlugin"
+            }, {
+                "id": "Oskari.mapframework.bundle.mapmodule.plugin.Portti2Zoombar"
+            }],
+            "mapOptions": {
+                "resolutions": [8192, 4096, 2048, 1024, 512, 256, 128, 64, 32, 16, 8, 4, 2, 1, 0.5],
+                "maxExtent": {
+                    "left": -548576.000000,
+                    "bottom": 6291456.000000,
+                    "right": 1548576.000000,
+                    "top": 8388608.000000
+                },
+                "srsName": "EPSG:3067"
+            },
+            "layers": [{
+				"mapDataname": "Kapsi - Taustakartta",
+				"wmsName": "taustakartta",
+				"styles": {
+					
+				},
+				"type": "base",
+				"orgName": "Maanmittauslaitos",
+				"attId": "434",
+				"formats": {
+					"value": "image/png"
+				},
+				"isQueryable": true,
+				"orgId": 0,
+				"id": "base_35",
+				"dataUrl": "",
+				"name": "Kapsi - Taustakartta",
+				"permissions": {
+					
+				},
+				"subLayer": [{
+					"mapDataname": "Kapsi - Taustakartta",
+					"wmsName": "taustakartta",
+					"styles": {
+						
+					},
+					"baseLayerId": "base_35",
+					"type": "wmslayer",
+					"orgName": "Maanmittauslaitos",
+					"attId": "434",
+					"formats": {
+						"value": "image/png"
+					},
+					"isQueryable": true,
+					"orgId": 0,
+					"id": "system_layer_434_0",
+					"dataUrl": "",
+					"wmsUrl": "http://tiles.kartat.kapsi.fi/taustakartta",
+					"name": "Kapsi - Taustakartta_0",
+					"opacity": 100,
+					"permissions": {
+						
+					},
+					"inspire": "taustakartta",
+					"gaType": ""
+				},
+				{
+					"mapDataname": "Kapsi - Taustakartta",
+					"wmsName": "taustakartta_01",
+					"styles": {
+						
+					},
+					"baseLayerId": "base_35",
+					"type": "wmslayer",
+					"orgName": "Maanmittauslaitos",
+					"attId": "434",
+					"formats": {
+						"value": "image/png"
+					},
+					"isQueryable": true,
+					"orgId": 0,
+					"id": "system_layer_434_1",
+					"dataUrl": "",
+					"wmsUrl": "http://tiles.kartat.kapsi.fi/taustakartta",
+					"name": "Kapsi - Taustakartta_1",
+					"opacity": 100,
+					"permissions": {
+						
+					},
+					"inspire": "taustakartta_01",
+					"gaType": ""
+				},
+				{
+					"mapDataname": "Kapsi - Taustakartta",
+					"wmsName": "taustakartta_02",
+					"styles": {
+						
+					},
+					"baseLayerId": "base_35",
+					"type": "wmslayer",
+					"orgName": "Maanmittauslaitos",
+					"attId": "434",
+					"formats": {
+						"value": "image/png"
+					},
+					"isQueryable": true,
+					"orgId": 0,
+					"id": "system_layer_434_2",
+					"dataUrl": "",
+					"wmsUrl": "http://tiles.kartat.kapsi.fi/taustakartta",
+					"name": "Kapsi - Taustakartta_2",
+					"opacity": 100,
+					"permissions": {
+						
+					},
+					"inspire": "taustakartta_02",
+					"gaType": ""
+				},
+				{
+					"mapDataname": "Kapsi - Taustakartta",
+					"wmsName": "taustakartta_03",
+					"styles": {
+						
+					},
+					"baseLayerId": "base_35",
+					"type": "wmslayer",
+					"orgName": "Maanmittauslaitos",
+					"attId": "434",
+					"formats": {
+						"value": "image/png"
+					},
+					"isQueryable": true,
+					"orgId": 0,
+					"id": "system_layer_434_3",
+					"dataUrl": "",
+					"wmsUrl": "http://tiles.kartat.kapsi.fi/taustakartta",
+					"name": "Kapsi - Taustakartta_3",
+					"opacity": 100,
+					"permissions": {
+						
+					},
+					"inspire": "taustakartta_03",
+					"gaType": ""
+				},
+				{
+					"mapDataname": "Kapsi - Taustakartta",
+					"wmsName": "taustakartta_04",
+					"styles": {
+						
+					},
+					"baseLayerId": "base_35",
+					"type": "wmslayer",
+					"orgName": "Maanmittauslaitos",
+					"attId": "434",
+					"formats": {
+						"value": "image/png"
+					},
+					"isQueryable": true,
+					"orgId": 0,
+					"id": "system_layer_434_4",
+					"dataUrl": "",
+					"wmsUrl": "http://tiles.kartat.kapsi.fi/taustakartta",
+					"name": "Kapsi - Taustakartta_4",
+					"opacity": 100,
+					"permissions": {
+						
+					},
+					"inspire": "taustakartta_04",
+					"gaType": ""
+				},
+				{
+					"mapDataname": "Kapsi - Taustakartta",
+					"wmsName": "taustakartta_05",
+					"styles": {
+						
+					},
+					"baseLayerId": "base_35",
+					"type": "wmslayer",
+					"orgName": "Maanmittauslaitos",
+					"attId": "434",
+					"formats": {
+						"value": "image/png"
+					},
+					"isQueryable": true,
+					"orgId": 0,
+					"id": "system_layer_434_5",
+					"dataUrl": "",
+					"wmsUrl": "http://tiles.kartat.kapsi.fi/taustakartta",
+					"name": "Kapsi - Taustakartta_5",
+					"opacity": 100,
+					"permissions": {
+						
+					},
+					"inspire": "taustakartta_05",
+					"gaType": ""
+				},
+				{
+					"mapDataname": "Kapsi - Taustakartta",
+					"wmsName": "taustakartta_06",
+					"styles": {
+						
+					},
+					"baseLayerId": "base_35",
+					"type": "wmslayer",
+					"orgName": "Maanmittauslaitos",
+					"attId": "434",
+					"formats": {
+						"value": "image/png"
+					},
+					"isQueryable": true,
+					"orgId": 0,
+					"id": "system_layer_434_6",
+					"dataUrl": "",
+					"wmsUrl": "http://tiles.kartat.kapsi.fi/taustakartta",
+					"name": "Kapsi - Taustakartta_6",
+					"opacity": 100,
+					"permissions": {
+						
+					},
+					"inspire": "taustakartta_06",
+					"gaType": ""
+				},
+				{
+					"mapDataname": "Kapsi - Taustakartta",
+					"wmsName": "taustakartta_07",
+					"styles": {
+						
+					},
+					"baseLayerId": "base_35",
+					"type": "wmslayer",
+					"orgName": "Maanmittauslaitos",
+					"attId": "434",
+					"formats": {
+						"value": "image/png"
+					},
+					"isQueryable": true,
+					"orgId": 0,
+					"id": "system_layer_434_7",
+					"dataUrl": "",
+					"wmsUrl": "http://tiles.kartat.kapsi.fi/taustakartta",
+					"name": "Kapsi - Taustakartta_7",
+					"opacity": 100,
+					"permissions": {
+						
+					},
+					"inspire": "taustakartta_07",
+					"gaType": ""
+				},
+				{
+					"mapDataname": "Kapsi - Taustakartta",
+					"wmsName": "taustakartta_08",
+					"styles": {
+						
+					},
+					"baseLayerId": "base_35",
+					"type": "wmslayer",
+					"orgName": "Maanmittauslaitos",
+					"attId": "434",
+					"formats": {
+						"value": "image/png"
+					},
+					"isQueryable": true,
+					"orgId": 0,
+					"id": "system_layer_434_8",
+					"dataUrl": "",
+					"wmsUrl": "http://tiles.kartat.kapsi.fi/taustakartta",
+					"name": "Kapsi - Taustakartta_8",
+					"opacity": 100,
+					"permissions": {
+						
+					},
+					"inspire": "taustakartta_08",
+					"gaType": ""
+				},
+				{
+					"mapDataname": "Kapsi - Taustakartta",
+					"wmsName": "taustakartta_09",
+					"styles": {
+						
+					},
+					"baseLayerId": "base_35",
+					"type": "wmslayer",
+					"orgName": "Maanmittauslaitos",
+					"attId": "434",
+					"formats": {
+						"value": "image/png"
+					},
+					"isQueryable": true,
+					"orgId": 0,
+					"id": "system_layer_434_9",
+					"dataUrl": "",
+					"wmsUrl": "http://tiles.kartat.kapsi.fi/taustakartta",
+					"name": "Kapsi - Taustakartta_9",
+					"opacity": 100,
+					"permissions": {
+						
+					},
+					"inspire": "taustakartta_09",
+					"gaType": ""
+				},
+				{
+					"mapDataname": "Kapsi - Taustakartta",
+					"wmsName": "taustakartta_10",
+					"styles": {
+						
+					},
+					"baseLayerId": "base_35",
+					"type": "wmslayer",
+					"orgName": "Maanmittauslaitos",
+					"attId": "434",
+					"formats": {
+						"value": "image/png"
+					},
+					"isQueryable": true,
+					"orgId": 0,
+					"id": "system_layer_434_10",
+					"dataUrl": "",
+					"wmsUrl": "http://tiles.kartat.kapsi.fi/taustakartta",
+					"name": "Kapsi - Taustakartta_10",
+					"opacity": 100,
+					"permissions": {
+						
+					},
+					"inspire": "taustakartta_10",
+					"gaType": ""
+				},
+				{
+					"mapDataname": "Kapsi - Taustakartta",
+					"wmsName": "taustakartta_11",
+					"styles": {
+						
+					},
+					"baseLayerId": "base_35",
+					"type": "wmslayer",
+					"orgName": "Maanmittauslaitos",
+					"attId": "434",
+					"formats": {
+						"value": "image/png"
+					},
+					"isQueryable": true,
+					"orgId": 0,
+					"id": "system_layer_434_11",
+					"dataUrl": "",
+					"wmsUrl": "http://tiles.kartat.kapsi.fi/taustakartta",
+					"name": "Kapsi - Taustakartta_11",
+					"opacity": 100,
+					"permissions": {
+						
+					},
+					"inspire": "taustakartta_11",
+					"gaType": ""
+				}],
+				"inspire": "taustakartta",
+				"gaType": ""
+			}]
+        }
+    },
+    "toolbar": {
+        "state": {
+
+        },
+        "conf": {
+            "history": false,
+            "basictools": {
+                "zoombox": false,
+                "measureline": false,
+                "measurearea": false
+            },
+            "viewtools": false
+        }
+    },
+    "navlist": {
+    	"state": {
+    	},
+    	"conf": {
+    		"navlist_div_id": "navlist",
+	    	"elements": [{
+	    		"name": "Salo",
+	            "zoom": 7,
+	            "east":  286477,
+	            "north": 6708833,
+	            "elements": [{
+		    				"name": 	"Halikko",
+				            "zoom": 	8,
+				            "east": 	280461,
+				            "north": 	6703081
+		    			}, {
+							"name": 	"Kiikala",
+				            "zoom": 	9,
+		    				"east":		310317,
+		    				"north":	6708211
+						}, {
+							"name": 	"Kisko",
+							"zoom": 	9,
+		    				"east":		304429,
+		    				"north":	6684147
+						}, {
+							"name": 	"Kuusjoki",
+				            "zoom": 	9,
+		    				"east":		292397,
+		    				"north":	6715435
+						}, {
+							"name": 	"Muurla",
+				            "zoom": 	9,
+		    				"east":		293677,
+		    				"north":	6696435
+						}, {
+							"name": 	"Perniö",
+				            "zoom": 	9,
+		    				"east":		285229,
+		    				"north":	6680563
+						}, {
+							"name": 	"Pertteli",
+				            "zoom": 	9,
+		    				"east":		293421,
+		    				"north":	6707955
+						}, {
+		    				"name": 	"Salo",
+		    				"zoom":		9,
+		    				"east":		286477,
+		    				"north":	6700883
+		    			}, {
+		    				"name": 	"Suomusjärvi",
+		    				"zoom":		9,
+		    				"east":		312093,
+		    				"north":	6698513
+		    			}, {
+		    				"name": 	"Särkisalo",
+		    				"zoom":		9,
+		    				"east":		274733,
+		    				"north":	6675443
+		    			}
+	    			]
+    			},{
+	    			"name": "Turku",
+		            "zoom": 7,
+		            "east":  239421,
+		            "north": 6711345
+	            },{
+	    			"name": "Helsinki",
+		            "zoom": 7,
+		            "east":  385277,
+		            "north": 6675825
+	            }
+	    	]
+		}    	
+    }
+}
